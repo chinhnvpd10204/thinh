@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.social-media-platforms {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-images img {
+    width: 100px;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.footer-red {
+    background:url(img/bia.png);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-red p {
+    font-weight: bold; /* Làm cho chữ trong phần footer đậm */
+    font-size: 18px; /* Có thể điều chỉnh kích thước chữ nếu cần */
+    margin: 5px 0; /* Để tạo khoảng cách giữa các dòng văn bản */
+}
+
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info img {
+    width: 30px;
+    margin: 0 10px;
+}
+header{
+    background: url(img/bia.png);
+}
+section img{
+    margin-left: 0%;
+}
